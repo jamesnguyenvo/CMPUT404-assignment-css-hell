@@ -1,0 +1,102 @@
+body {
+    /* background-image: url("bg.png") */
+    background-color: black;
+}
+/* taken from w3schools top navigation bar tutorial */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Comic Sans MS";
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+h1 {
+    font-family: "Comic Sans MS", Arial;
+    text-align: center;
+    color: #00FFFF;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", Arial;
+    text-align: center;
+    color: #ffdb58;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+h4 {
+    font-family: "Comic Sans MS", Arial;
+    text-align: center;
+    color: white;
+}
+p {
+    font-family: "Times New Roman";
+    color: red;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 600px;
+}
+.main {
+    opacity: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+}
+ul {
+    font-family: "Times New Roman";
+    color: red;
+    width: 70%;
+    margin: auto;
+    list-style-position: inside;
+}
+ /* w3schools fixed sidebar tutorial */
+.sidebar {
+    height:100%;
+    width: 200px;
+	float: left;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+	background-image: linear-gradient(red,yellow);
+	font-size: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.sidebar li {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    color: blue;
+    list-style-position: outside;
+}
